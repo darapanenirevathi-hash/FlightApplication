@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlightApplicationSuite" >
+
+  <test name="FlightRegistrationTestcase" enabled="false" >
+    <parameter name="name" value="cheri"/>
+    <parameter name="email" value="cheri@gmail.com"/>
+    <parameter name="gender" value="female"/>
+    <parameter name="contact" value="1234567181"/>
+    <parameter name="password" value="abc@707"/>
+    <parameter name="dob" value="03-08-1999"/>
+
+    <classes>
+      <class name="Flight.testcases.UserRegistrationsuccess"/>
+    </classes>
+  </test>
+  
+  <test name ="loginwithvalidinputsTestcase">
+  <parameter name="email" value="cheri@gmail.com"/>
+  <parameter name="password" value="abc@707"/>
+  <classes>
+  <class name="Flight.testcases.loginwithvalidInputs"/>
+  </classes>
+  </test>
+  
+  <test name="BookingTicketVerication">
+  <parameter name="flydate" value="11-October-2026"/>
+  <parameter name="text" value="Hyderabad"/>
+  <parameter name="text1" value="Kolkatha"/>
+  
+  <classes>
+  <class name="Flight.testcases.ticketBookingsuccess"/>
+  
+  </classes>
+  </test>
+  
+  
+
+</suite>

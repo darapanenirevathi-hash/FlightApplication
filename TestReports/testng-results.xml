@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-14T16:55:15 IST" name="FlightApplicationSuite" finished-at="2025-12-14T16:55:19 IST" duration-ms="4305">
+    <groups>
+    </groups>
+    <test started-at="2025-12-14T16:55:15 IST" name="loginwithvalidinputsTestcase" finished-at="2025-12-14T16:55:16 IST" duration-ms="1366">
+      <class name="Flight.testcases.loginwithvalidInputs">
+        <test-method signature="checkUser(java.lang.String,java.lang.String)[pri:0, instance:Flight.testcases.loginwithvalidInputs@1283bb96]" started-at="2025-12-14T16:55:15 IST" name="checkUser" finished-at="2025-12-14T16:55:16 IST" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cheri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUser -->
+      </class> <!-- Flight.testcases.loginwithvalidInputs -->
+    </test> <!-- loginwithvalidinputsTestcase -->
+    <test started-at="2025-12-14T16:55:16 IST" name="BookingTicketVerication" finished-at="2025-12-14T16:55:19 IST" duration-ms="2827">
+      <class name="Flight.testcases.ticketBookingsuccess">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Flight.testcases.ticketBookingsuccess@36fc695d]" started-at="2025-12-14T16:55:12 IST" name="launchApp" finished-at="2025-12-14T16:55:15 IST" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Flight.testcases.ticketBookingsuccess@36fc695d]" started-at="2025-12-14T16:55:16 IST" name="ticketBooking" finished-at="2025-12-14T16:55:19 IST" duration-ms="2800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11-October-2026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kolkatha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Flight.testcases.ticketBookingsuccess@36fc695d]" started-at="2025-12-14T16:55:19 IST" name="closeApp" finished-at="2025-12-14T16:55:19 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Flight.testcases.ticketBookingsuccess -->
+    </test> <!-- BookingTicketVerication -->
+  </suite> <!-- FlightApplicationSuite -->
+</testng-results>
